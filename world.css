@@ -68,6 +68,11 @@ table {
     margin: 20px;
 }
 
+table, th, td {
+    border: 1px solid rgb(170, 169, 169);
+    text-align: center;
+    vertical-align: center;
+}
 
 th {
     height: 50px;
@@ -77,4 +82,18 @@ th {
 
 td {
     height: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #d3d1d1;
+}
+
+img {
+    height: 130px;
+    width: 135px;
+    margin: 10px;
 }
