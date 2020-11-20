@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $username = 'lab5_user';
-$password = '';
+$password = 'My_Password1';
 $dbname = 'world';
 
 if($_SERVER['REQUEST_METHOD'] === 'GET' ){
@@ -65,3 +65,7 @@ if($_SERVER['REQUEST_METHOD'] === 'GET' ){
 
   }
 }
+
+
+
+
